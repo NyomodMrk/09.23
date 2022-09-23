@@ -4,9 +4,73 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Python</title>
 </head>
 <body>
-    
+    <h1>Python jegyzet</h1>
+    <h2>Konzol - olbasás és kiírás</h2>
+    <p><code>print()</code>Kiíratás a konzolra</p>
+    <p><code>input()</code>Beolvas a konzolból</p>
+    <p>A konzolról beolvasott adat alapértelmezetten szövegként tárolódik, azaz string. Használathoz át kell alakítanunk megfelelő típusra.</p>
+    <h2>Típus konvertáló függvények.</h2>
+    <p><code>string()</code>Szöveg típús</p>
+    <p><code>int()</code>Egész szám típús(integer)</p>
+    <p><code>float()</code>Lebegőpontos szám(valós szám / tört szám) típús</p>
+    <h2>Escape szekvenciák / formátum vezérlő karakterek</h2>
+    <p><code>\n</code> Sortörés</p>
+    <p><code>\t</code> Tabulátor</p>
+    <h2>Kommentelés a kódba</h2>
+    <p><code>#Egysoros comment</code></p>
+    <!--a pre tag - szóközt és sortöréseket úgy jelenít meg ahogy a forrásban van-->
+    <p><pre>
+<code>'''
+Több
+Soros
+comment
+'''
+</code></pre></p>
+    <h2>Saját függvények</h2>
+    <p>Függvények definiálása:</p>
+    <code>
+    <pre>
+        def függvény():
+            #Utasítások amelyeket a függvény elvégez.
+    </pre>
+</code>
+    <h2>Függvény meghívása:</h2>
+    <p><pre>
+<code>
+fuggveny()
+</code></pre></p>
+<h2>Matematikai függvények:</h2>
+<p><code>min()</code>Legkisebbet adja a felsorult elemek közül.</p>
+<p><code>max()</code>Legnagyobbat adja a felsorult elemek közül.</p>
+<p><code>round()</code>Egészre kerekíti a törtszámot.</p>
+<p><code>sum()</code>Összeadja a paraméterül kapott számokat.</p>
+    <h2>Vezérlési Szerkezetek</h2>
+    <h3>Szekvencia</h3>
+    <p>Egymást követő utasítások.</p>
+    <code><pre>
+        x = int(input('Adjon meg egy számot:'))
+        print(2 * x)
+
+    </pre></code>
+    <h3>Elágazás</h3>
+    <p>Feltétel alapján történő tuasítás végrehajtás</p>
+    <code><pre>
+        if x==3:
+            print("Alma")
+        else:
+            print("sajt")
+    </pre></code>
+    <p>Else ág akkor hajtódik végre, ha a feltétel nem teljesül.</p>
+    <h2>Ciklusok</h2>
+    <p>for ciklus- többször hajtja végre ugyanazt</p>
+    <code>
+        <pre>
+            for i in range(5):
+                print(i)
+        </pre>
+    </code>
 </body>
 </html>
